@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .date-form {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+</style>
+<body>
+    <!-- 
+        1. formulario campos: Nombre, Apellidos y edad
+        2. Boton de enviar el formulario: eventos submit
+        3. Mostrar datos por pantalla
+        4. validacion del formulario
+    -->
+    <form action="#" method="" id="formulario" class="box dashed">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"><br>
+        <p id="error"></p>
+        <label for="apellidos">Apellido</label>
+        <input type="text" name="apellido" id="apellido"><br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad"><br>
+        <button type="submit" name="enviar" value="enviar">Enviar</button>
+    </form>
+    <div class="date-form">
+        <p id="p_nombre">
+            Nombre<span id="nombreN"></span>
+        </p>
+        <p id="p_apellido">
+            Apellido<span id="nombreN"></span>
+        </p>
+        <p id="p_edad">
+            Nombre<span id="nombreN"></span>
+        </p>
+    </div>
+</body>
+<script src="ejercicio.js"></script>
+</html>
